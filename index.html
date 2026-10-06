@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vanshika | Front-End Developer & Designer</title>
+  <meta name="description"
+    content="Vanshika is a front-end developer and UI/UX designer crafting clean, responsive, high-performance websites with HTML, CSS, JavaScript and WordPress." />
+  <meta name="theme-color" content="#000000" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <!-- ===== Header ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="logo" id="logo" aria-label="Vanshika - Home">vm</a>
+
+      <nav class="nav" id="nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link active" id="nav-home">Home</a></li>
+          <li><a href="#services" class="nav__link" id="nav-services">Services</a></li>
+          <li><a href="#about" class="nav__link" id="nav-about">About</a></li>
+          <li><a href="#skills" class="nav__link" id="nav-skills">Skills</a></li>
+          <li><a href="#projects" class="nav__link" id="nav-projects">Projects</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="btn btn--sm" id="cta-talk">Let's Talk</a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="home">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__intro reveal">I am Vanshika</p>
+          <h1 class="hero__title reveal">
+            Front-End<br />
+            <span class="hero__title-accent">Developer &amp; Designer</span>
+          </h1>
+          <p class="hero__desc reveal">
+            Blending thoughtful UI design with clean, responsive development to create
+            websites that look great and perform flawlessly.
+          </p>
+          <a href="assets/Vanshika-CV.pdf" class="btn reveal" id="download-cv" download>
+            Download CV
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 3v12" />
+              <path d="m7 10 5 5 5-5" />
+              <path d="M5 21h14" />
+            </svg>
+          </a>
+
+          <div class="socials reveal">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener" class="social" id="social-linkedin"
+              aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z" />
+              </svg>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener" class="social" id="social-github"
+              aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path
+                  d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .31.2.69.82.57A12 12 0 0 0 12 .3" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="hero__ring" aria-hidden="true"></div>
+          <img src="assets/hero.jpg" alt="Portrait of Vanshika wearing a bucket hat and sunglasses" class="hero__img"
+            width="1024" height="1024" />
+          <span class="hero__badge hero__badge--1">UI / UX</span>
+          <span class="hero__badge hero__badge--2">&lt;/&gt; Frontend</span>
+        </div>
+      </div>
+
+      <a href="#services" class="scroll-hint" id="scroll-hint" aria-label="Scroll to services"><span></span></a>
+    </section>
+
+    <!-- ===== Services ===== -->
+    <section class="section" id="services">
+      <div class="container">
+        <header class="section__head reveal">
+          <h2 class="section__title">Services</h2>
+          <p class="section__subtitle">Designing clean scalable responsive websites</p>
+        </header>
+
+        <div class="grid grid--4">
+          <article class="card service reveal" id="service-uiux">
+            <h3 class="card__title">UI/UX Website Design</h3>
+            <p class="card__text">Clean, user-focused layouts with clear structure, smooth navigation, and strong visual
+              hierarchy.</p>
+            <ul class="service__list">
+              <li>Modern layouts</li>
+              <li>Responsive design</li>
+            </ul>
+          </article>
+
+          <article class="card service reveal" id="service-frontend">
+            <h3 class="card__title">Frontend Development</h3>
+            <p class="card__text">Responsive interfaces using HTML, CSS, and JavaScript for clean, consistent, reliable
+              performance.</p>
+            <ul class="service__list">
+              <li>Clean HTML/CSS</li>
+              <li>Smooth interactions</li>
+            </ul>
+          </article>
+
+          <article class="card service reveal" id="service-performance">
+            <h3 class="card__title">Performance &amp; Responsiveness</h3>
+            <p class="card__text">Fast, mobile-first websites optimized for speed, accessibility, and dependable
+              performance.</p>
+            <ul class="service__list">
+              <li>Speed optimization</li>
+              <li>Asset efficiency</li>
+            </ul>
+          </article>
+
+          <article class="card service reveal" id="service-wordpress">
+            <h3 class="card__title">WordPress Implementation</h3>
+            <p class="card__text">Lightweight WordPress setups with easy updates, fast loading, and scalable, clean,
+              customizable layouts.</p>
+            <ul class="service__list">
+              <li>Theme setup</li>
+              <li>Easy management</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section__head reveal">
+          <h2 class="section__title">About Me</h2>
+          <p class="about__text">
+            I'm a front-end developer and designer passionate about crafting clean, intuitive, and responsive
+            digital experiences. I focus on turning ideas into seamless interfaces by understanding user needs,
+            designing thoughtful UI layouts, and ensuring smooth interactions across devices.
+          </p>
+        </header>
+
+        <h3 class="about__subtitle reveal">My Approach</h3>
+        <div class="grid grid--3 approach">
+          <div class="approach__item reveal" id="approach-1"><span class="approach__num">01</span>Understand users &amp;
+            goals</div>
+          <div class="approach__item reveal" id="approach-2"><span class="approach__num">02</span>Create clean UI
+            layouts</div>
+          <div class="approach__item reveal" id="approach-3"><span class="approach__num">03</span>Responsive experiences
+          </div>
+        </div>
+
+        <div class="stats reveal">
+          <div class="stat">
+            <span class="stat__num" data-count="2">00</span><span class="stat__plus">+</span>
+            <p class="stat__label">Years Of Experience</p>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-count="15">00</span><span class="stat__plus">+</span>
+            <p class="stat__label">Projects Completed</p>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-count="5">00</span><span class="stat__plus">+</span>
+            <p class="stat__label">Clients Served</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <header class="section__head reveal">
+          <h2 class="section__title">Skills</h2>
+          <p class="section__subtitle">Crafting seamless UI/UX and clean code</p>
+        </header>
+
+        <div class="grid grid--4">
+          <article class="card skill reveal" id="skill-core">
+            <h3 class="card__title">Core Skills</h3>
+            <ul class="tags">
+              <li>UI/UX layout</li>
+              <li>Frontend Dev</li>
+              <li>Responsive Web Design</li>
+              <li>Component-Based Design</li>
+            </ul>
+          </article>
+          <article class="card skill reveal" id="skill-frontend">
+            <h3 class="card__title">Frontend Tech</h3>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+              <li>WordPress</li>
+            </ul>
+          </article>
+          <article class="card skill reveal" id="skill-design">
+            <h3 class="card__title">Design Tools</h3>
+            <ul class="tags">
+              <li>Figma</li>
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+            </ul>
+          </article>
+          <article class="card skill reveal" id="skill-tools">
+            <h3 class="card__title">Tools &amp; Interaction</h3>
+            <ul class="tags">
+              <li>GitHub</li>
+              <li>Netlify</li>
+              <li>GSAP</li>
+              <li>UI Interactions</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <header class="section__head reveal">
+          <h2 class="section__title">Projects</h2>
+          <p class="section__subtitle">Selected work built with care</p>
+        </header>
+
+        <div class="grid grid--3">
+          <article class="card project reveal" id="project-1">
+            <div class="mock mock--a" aria-hidden="true">
+              <div class="mock__bar"><i></i><i></i><i></i></div>
+              <div class="mock__body"><b class="w60"></b><b class="w40"></b>
+                <div class="mock__row"><b></b><b></b><b></b></div>
+              </div>
+            </div>
+            <h3 class="card__title">Studio Landing Page</h3>
+            <p class="card__text">A bold, minimal agency landing page with GSAP scroll animations.</p>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>GSAP</li>
+            </ul>
+            <a href="#" class="project__link" id="project-1-link">View project <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="card project reveal" id="project-2">
+            <div class="mock mock--b" aria-hidden="true">
+              <div class="mock__bar"><i></i><i></i><i></i></div>
+              <div class="mock__body mock__body--split">
+                <div class="mock__side"></div>
+                <div><b class="w60"></b><b class="w80"></b><b class="w40"></b></div>
+              </div>
+            </div>
+            <h3 class="card__title">Analytics Dashboard UI</h3>
+            <p class="card__text">Clean, component-based dashboard designed in Figma and built responsive.</p>
+            <ul class="tags">
+              <li>Figma</li>
+              <li>JS</li>
+              <li>UI</li>
+            </ul>
+            <a href="#" class="project__link" id="project-2-link">View project <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="card project reveal" id="project-3">
+            <div class="mock mock--c" aria-hidden="true">
+              <div class="mock__bar"><i></i><i></i><i></i></div>
+              <div class="mock__body">
+                <div class="mock__grid"><b></b><b></b><b></b><b></b></div>
+              </div>
+            </div>
+            <h3 class="card__title">Boutique WordPress Store</h3>
+            <p class="card__text">Lightweight, fast-loading WordPress shop with an easy-to-manage theme.</p>
+            <ul class="tags">
+              <li>WordPress</li>
+              <li>CSS</li>
+            </ul>
+            <a href="#" class="project__link" id="project-3-link">View project <span aria-hidden="true">→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact card reveal">
+          <h2 class="section__title">Let's build something great</h2>
+          <p class="section__subtitle">Have a project in mind? I'd love to hear about it.</p>
+          <a href="mailto:hello@vanshika.dev" class="btn btn--light" id="contact-email">hello@vanshika.dev</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Vanshika. All rights reserved.</p>
+      <a href="#home" class="footer__top" id="back-to-top">Back to top ↑</a>
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
